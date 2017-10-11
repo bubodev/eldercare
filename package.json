@@ -1,0 +1,21 @@
+{
+  "name": "eldercare",
+  "version": "0.0.1",
+  "description": "CMS web application for elderly care homes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/bubodev/eldercare.git",
+  "keywords": [
+    "eldercare",
+    "elderly",
+    "care"
+  ],
+  "author": "Ljupche Anastasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bubodev/eldercare/issues"
+  },
+  "homepage": "https://github.com/bubodev/eldercare#readme"
+}
