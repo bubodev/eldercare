@@ -1,0 +1,76 @@
+@import "vendors/fonts";
+@import "vendors/bootstrap/bootstrap.scss";
+
+//@import "config/variable";
+
+@import "pages/home",
+				"pages/search",
+				"pages/todo";
+
+//@import "components/header", "components/button", "components/todo", "components/weather", "components/demo";
+*{
+  font-family: 'Roboto', sans-serif;
+}
+html, body, .cover-index, #root, .full-height{
+  width: 100%;
+  height: 100%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.navbar-brand{
+	padding: 0;
+	height: 40px;
+}
+.navbar-brand img{
+	height: 100%;
+	padding: 0;
+	width: auto;
+}
+.nav-item .btn.btn-secondary{
+	padding: 0;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	background:	#ffffff;
+	border: 0;
+	color: rgba(0, 0, 0, 0.5) !important;
+}
+.btn.btn-secondary:hover{
+	border: 0;
+	color: rgba(0, 0, 0, 0.7) !important;
+}
+.btn{
+  cursor: pointer;
+}
+.btn.btn-primary{
+  font-weight: 300;
+  color:#ffffff !important;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn.btn-primary:hover{
+  background-color: #16269D;
+  border-color: #16269D;
+}
+.btn.btn-secondary{
+  font-weight: 300;
+  background-color: #d2d2d2;
+  border-color: #d2d2d2;
+  color: #ffffff !important;
+}
+.btn.btn-secondary:hover{
+  font-weight: 300;
+  background-color: #b2b2b2;
+  border-color: #b2b2b2;
+  color: #ffffff !important;
+}
+.bg-light.navbar{
+  background-color: #ffffff !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color:#007bff;
+}

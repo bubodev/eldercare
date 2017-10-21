@@ -1,0 +1,38 @@
+{
+  "name": "eldercare-api",
+  "version": "0.1.0",
+  "description": "api for eldercare with express and mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubodev/eldercare-api.git"
+  },
+  "keywords": [
+    "eldercare",
+    "api"
+  ],
+  "author": "Ljupche Anastasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bubodev/eldercare-api/issues"
+  },
+  "homepage": "https://github.com/bubodev/eldercare-api#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.12.1",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
